@@ -59,15 +59,17 @@ fun TrackerOverviewScreen(
                             .padding(horizontal = spacing.spaceSmall)
                     ) {
                         state.trackedFoods.forEach { food ->
-                            TrackedFoodItem(
-                                trackedFood = food,
-                                onDeleteClick = {
-                                    viewModel.onEvent(
-                                        TrackerOverviewEvent
-                                            .OnDeleteTrackedFoodClick(food)
-                                    )
-                                }
-                            )
+                            if(meal.mealType == food.mealType) {
+                                TrackedFoodItem(
+                                    trackedFood = food,
+                                    onDeleteClick = {
+                                        viewModel.onEvent(
+                                            TrackerOverviewEvent
+                                                .OnDeleteTrackedFoodClick(food)
+                                        )
+                                    }
+                                )
+                            }
                             Spacer(modifier = Modifier.height(spacing.spaceMedium))
                         }
                         AddButton(
