@@ -4,6 +4,7 @@ apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-parcelize'
 
 android {
+    namespace 'com.plcoding.calorytracker'
     compileSdk ProjectConfig.compileSdk
 
     defaultConfig {
