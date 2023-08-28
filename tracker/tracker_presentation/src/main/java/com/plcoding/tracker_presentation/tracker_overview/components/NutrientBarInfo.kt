@@ -21,7 +21,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.plcoding.tracker_presentation.R
+import com.plcoding.core.R
 import com.plcoding.tracker_presentation.components.UnitDisplay
 
 @Composable
