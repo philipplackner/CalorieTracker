@@ -27,7 +27,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import com.plcoding.core_ui.LocalSpacing
-import com.plcoding.tracker_presentation.R
+import com.plcoding.core.R
 
 @Composable
 fun SearchTextField(

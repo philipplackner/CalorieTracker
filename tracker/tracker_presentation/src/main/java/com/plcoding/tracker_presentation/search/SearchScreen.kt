@@ -1,6 +1,10 @@
 package com.plcoding.tracker_presentation.search
 
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.ScaffoldState
 import androidx.compose.material.Text
@@ -12,11 +16,10 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalSoftwareKeyboardController
 import androidx.compose.ui.res.stringResource
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.plcoding.core.R
 import com.plcoding.core.util.UiEvent
 import com.plcoding.core_ui.LocalSpacing
-import com.plcoding.tracker_presentation.R
 import com.plcoding.tracker_presentation.search.components.SearchTextField
-import kotlinx.coroutines.flow.collect
 
 @ExperimentalComposeUiApi
 @Composable
