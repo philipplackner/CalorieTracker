@@ -11,7 +11,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import coil.annotation.ExperimentalCoilApi
 import com.plcoding.core.util.UiEvent
 import com.plcoding.core_ui.LocalSpacing
-import com.plcoding.tracker_presentation.R
+import com.plcoding.core.R
 import com.plcoding.tracker_presentation.tracker_overview.components.*
 
 @ExperimentalCoilApi
