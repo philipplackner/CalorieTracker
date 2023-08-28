@@ -21,7 +21,7 @@ import coil.annotation.ExperimentalCoilApi
 import com.plcoding.core.util.UiEvent
 import com.plcoding.core_ui.LocalSpacing
 import com.plcoding.tracker_domain.model.MealType
-import com.plcoding.tracker_presentation.R
+import com.plcoding.core.R
 import com.plcoding.tracker_presentation.search.components.SearchTextField
 import com.plcoding.tracker_presentation.search.components.TrackableFoodItem
 import kotlinx.coroutines.flow.collect
