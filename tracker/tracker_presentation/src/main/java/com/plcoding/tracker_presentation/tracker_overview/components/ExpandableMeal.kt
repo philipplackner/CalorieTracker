@@ -17,7 +17,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import coil.compose.rememberImagePainter
 import com.plcoding.core_ui.LocalSpacing
-import com.plcoding.tracker_presentation.R
+import com.plcoding.core.R
 import com.plcoding.tracker_presentation.tracker_overview.Meal
 import androidx.compose.foundation.layout.*
 import androidx.compose.ui.unit.sp
