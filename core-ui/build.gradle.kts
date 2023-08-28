@@ -1,7 +1,10 @@
-apply {
-    from("$rootDir/compose-module.gradle")
+plugins {
+    `android-library`
+    `kotlin-android`
 }
 
-dependencies {
+apply(from = "$rootDir/compose-module.gradle")
 
+android {
+    namespace = "com.plcoding.core_ui"
 }
