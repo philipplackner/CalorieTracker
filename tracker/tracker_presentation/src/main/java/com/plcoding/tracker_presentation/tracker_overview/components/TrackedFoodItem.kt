@@ -24,7 +24,7 @@ import coil.annotation.ExperimentalCoilApi
 import coil.compose.rememberImagePainter
 import com.plcoding.core_ui.LocalSpacing
 import com.plcoding.tracker_domain.model.TrackedFood
-import com.plcoding.tracker_presentation.R
+import com.plcoding.core.R
 import com.plcoding.tracker_presentation.components.NutrientInfo
 
 @ExperimentalCoilApi
