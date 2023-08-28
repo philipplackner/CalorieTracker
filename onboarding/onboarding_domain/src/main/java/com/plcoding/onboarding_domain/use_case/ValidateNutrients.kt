@@ -1,7 +1,7 @@
 package com.plcoding.onboarding_domain.use_case
 
 import com.plcoding.core.util.UiText
-import com.plcoding.onboarding_domain.R
+import com.plcoding.core.R
 
 class ValidateNutrients {
 
