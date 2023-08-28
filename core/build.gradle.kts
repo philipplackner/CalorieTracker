@@ -1,7 +1,10 @@
-apply {
-    from("$rootDir/base-module.gradle")
+plugins {
+    `android-library`
+    `kotlin-android`
 }
 
-dependencies {
+apply(from = "$rootDir/base-module.gradle")
 
+android {
+    namespace = "com.plcoding.core"
 }
